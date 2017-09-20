@@ -1,4 +1,4 @@
-(define (zzz pattern width height)
+(define (GimpBatchScript pattern width height)
 (let* ((filelist (cadr (file-glob pattern 1))))
 (while (not (null? filelist))
 (let* ((filename (car filelist))
